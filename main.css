@@ -47,3 +47,26 @@ footer{
     background-color: #555;
     grid-column: 2 / span 1;
 }
+div#seconda{
+    justify-content: center;
+}
+.chat-stream{
+    height: 75vh;
+    background-color: #aaa;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    font-size: 20px;
+    color: #000;
+    border: 5px solid #000;
+}
+#name{
+    width: 100px;
+    background-color: #ccc;
+    color: #000;
+}
+#message{
+    width: 60vw;
+    background-color: #ccc;
+    color: #000;
+}
