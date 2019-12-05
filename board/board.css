@@ -1,0 +1,73 @@
+
+body{
+    margin: 0;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr;
+    grid-template-rows: 50px 6fr 25px 25px;
+}
+.logo{
+    background-color: #999;
+    grid-column: 1 / span 1;
+}
+.header{
+    background-color: #555;
+    grid-column: 2 / span 3;
+    font-size: 32px;
+    text-align: center;
+}
+.side-nav{
+    background-color: #555;
+    grid-column: 1 / span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.side-nav div{
+    margin-top: 2rem;
+}
+.article{
+    background-color: #999;
+    grid-column: 2 / span 3;
+}
+footer{
+    background-color: #999;
+    grid-column: 1 / span 1;
+ 
+}
+.est{
+    background-color: #555;
+    grid-column: 2 / span 3;
+}
+.one{
+    background-color: #999;
+    grid-column: 1 / span 1;
+}
+.two{
+    background-color: #555;
+    grid-column: 2 / span 3;
+}
+div#seconda{
+    justify-content: center;
+}
+.chat-stream{
+    height: 75vh;
+    background-color: #aaa;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    font-size: 20px;
+    color: #000;
+    border: 5px solid #000;
+}
+#name{
+    width: 100px;
+    background-color: #ccc;
+    color: #000;
+}
+#message{
+    width: 60vw;
+    background-color: #ccc;
+    color: #000;
+}
